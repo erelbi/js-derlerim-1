@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .bas {
+            width: 80%;
+            border: 1px solid black;
+            height: 200px;
+            margin: 0 auto;
+            background-image: url('img.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .bas>b {
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: underline;
+            text-align: center;
+            display: block;
+            width: 100%;
+            transform: rotate(90deg);
+            margin-left: 37px;
+            margin-top: 80px;
+            text-transform: uppercase;
+        }
+        
+        .govde {
+            width: 80%;
+            margin: 50px auto;
+            min-height: 500px;
+        }
+        
+        .orta {
+            width: 66%;
+            border: 1px solid rgb(59, 92, 136);
+            height: 500px;
+            float: left;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+        
+        .yan {
+            width: 34%;
+            border: 20px solid blue;
+            height: 500px;
+            float: right;
+        }
+        
+        .dip {
+            height: 140px;
+            margin: 0 auto;
+            width: 80%;
+            border: 1px solid green;
+            position: relative;
+        }
+        
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu li {
+            font-size: 20px;
+            background: darkcyan;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 1px solid #fff;
+            cursor: pointer;
+        }
+        
+        .dip i {
+            text-align: center;
+            position: absolute;
+            top: 110px;
+            right: 48%;
+        }
+        
+        .sabit {
+            color: red;
+            position: fixed;
+            top: 20px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bas">
+        <b>alın yazısı</b>
+    </div>
+    <div class="govde">
+        <div class="orta">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid temporibus dolore repudiandae laborum optio magnam harum, aliquam fugit rem porro, corporis enim veniam, quidem molestias? Assumenda velit dolore ipsum! In ducimus incidunt,
+                sint consequuntur totam, nesciunt quae nulla ut distinctio, laboriosam corporis temporibus voluptates itaque quibusdam! Deserunt quidem veritatis, beatae esse at dicta, quasi ullam temporibus sapiente nobis consequatur iste. Officia qui
+                beatae natus recusandae non, modi minima fuga ullam ratione, est dolor vitae in quae enim impedit exercitationem doloribus unde labore aliquid laboriosam? Magnam illum explicabo nam enim error reiciendis deserunt modi minus illo cupiditate
+                in laborum ea quam nostrum, animi unde repellat officia dolores neque sequi voluptates. Facere dolores placeat at molestias repellat a asperiores, beatae in deleniti vero repellendus accusantium minus? Repellat eveniet laudantium veritatis,
+                reprehenderit, culpa hic et unde beatae quasi cumque, tenetur expedita inventore quis. Nobis animi incidunt eligendi laudantium perferendis in ipsam repellendus fugiat magni neque, a ullam id, ea, libero nisi illo nesciunt quasi nulla
+                consequatur ex explicabo numquam? Ipsa culpa quia ducimus sapiente necessitatibus perferendis accusamus, num?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis deleniti quae exercitationem doloribus voluptatibus, hic corrupti
+                maxime officia in nemo distinctio quaerat minima vel repudiandae iure tenetur. Officia excepturi omnis laborum autem maiores minus animi est, qui accusamus cupiditate. Quam porro repellat consequatur dolorem corrupti sint voluptates ratione
+                voluptatibus totam voluptatem doloribus numquam, fugit dolore maxime aut enim unde? Ullam debitis fuga asperiores, dolor aliquam ab commodi nobis iste maxime accusamus voluptas animi ipsa rem voluptatum deserunt odit dolorum esse eligendi
+                ut sunt cupiditate repellendus odio? Architecto eum ex facilis unde dolorem suscipit nostrum expedita, reprehenderit obcaecati vitae recusandae totam esse odit iusto voluptatibus quis ullam perferendis in necessitatibus repellat blanditiis
+                natus ratione praesentium ea! Nemo corrupti, repellendus modi blanditiis, voluptas quae voluptate vero dignissimos veritatis laboriosam, unde sit voluptatem saepe? Ipsam quae eos libero facilis, harum veritatis quidem voluptatem sint aliquam
+                expedita commodi officia nihil, animi hic doloremque eveniet consequatur! Quia reprehenderit, expedita omnis vero hic quo facere vitae similique repellat voluptatum blanditiis placeat quos temporibus rerum minus magni soluta, maxime quod
+                sequi? Culpa placeat quidem voluptatibus ut, quisquam quos, voluptate architecto, temporibus nesciunt atque maiores. Impedit, saepe consectetur ex harum adipisci, obcaecati nisi architecto sint recusandae placeat ea.</p>
+        </div>
+        <div class="yan">
+            <ul class="menu">
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+            </ul>
+        </div>
+    </div>
+    <div class="dip">
+        <i>Designed by HE</i>
+    </div>
+    <audio src="music.mp3"></audio>
+    <b class="sabit">lorem</b>
+    <script>
+        var alin = document.querySelector('.bas b');
+        alin.style.cursor = 'pointer';
+        var ses = document.querySelector('audio');
+        var kapatma = document.getElementsByClassName('sabit');
+
+
+        kapatma[0].addEventListener('click', function() {
+            ses.pause();
+        });
+        alin.addEventListener('click', function() {
+            ses.play();
+        })
+    </script>
+</body>
+
+</html>
